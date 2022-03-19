@@ -64,7 +64,7 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 
 *{{ _.base_url }}/user/lsita*
 
-### Body não necessários
+### Body `não necessários`
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
@@ -109,12 +109,11 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 
 *{{ _.base_url }}/filmes/lista*
 
-### Body não necessários
+### Body `não necessários`
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
-| ------------ | -----------
--------------------------------------------------------------------------   |
+| ------------ | ------------------------------------------------------------------------------------   |
 | `id`         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
 | `name`       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
 | `email`      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
