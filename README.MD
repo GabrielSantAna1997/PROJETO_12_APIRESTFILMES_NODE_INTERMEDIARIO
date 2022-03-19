@@ -49,16 +49,16 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Body
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _email_      | Parâmetro obrigatório.<br>Ex:   `gabrielsantana@gmail.com`                             |
-| _password_   | Parâmetro obrigatório.<br>Ex:   `123456789`                                            |
+| `email`      | Parâmetro obrigatório.<br>Ex:   `gabrielsantana@gmail.com`                             |
+| `password`   | Parâmetro obrigatório.<br>Ex:   `123456789`                                            |
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _id_         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
-| _name_       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
-| _email_      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
-| _token_      | Retorna um token autenticado.<br>Ex:      `sInR5cCI6IkpXVCJ...`                        |
+| `id`         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
+| `name`       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
+| `email`      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
+| `token`      | Retorna um token autenticado.<br>Ex:      `sInR5cCI6IkpXVCJ...`                        |
 
 
 
@@ -69,10 +69,10 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _id_         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
-| _name_       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
-| _email_      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
-| _createdAt_  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
+| `id`         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
+| `name`       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
+| `email`      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
+| `createdAt`  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
 
 >
 
@@ -88,22 +88,22 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Body
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _id_         | Parâmetro obrigatório.<br>Ex:   `1`                                                    |
-| _titulo_     | Parâmetro obrigatório.<br>Ex:   `Godizilla`                                            |
-| _diretor_    | Parâmetro obrigatório.<br>Ex:   `tkao okawara `                                        |
-| _ano_        | Parâmetro obrigatório.<br>Ex:   `2000-01-01T00:00:00.000Z `                            |
-| _estoque_    | Parâmetro obrigatório.<br>Ex:   `5`                                                    |
+| `id`         | Parâmetro obrigatório.<br>Ex:   `1`                                                    |
+| `titulo`     | Parâmetro obrigatório.<br>Ex:   `Godizilla`                                            |
+| `diretor`    | Parâmetro obrigatório.<br>Ex:   `tkao okawara `                                        |
+| `ano`        | Parâmetro obrigatório.<br>Ex:   `2000-01-01T00:00:00.000Z `                            |
+| `estoque`    | Parâmetro obrigatório.<br>Ex:   `5`                                                    |
 
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _id_         | Retorna o ID do filme.<br>Ex:      `1`                                                 |
-| _titulo_     | Retorna o o titulo do filme.<br>Ex:   `Godizilla`                                      |
-| _diretor_    | Retorna o diretor do filme.<br>Ex:   `tkao okawara `                                   |
-| _ano_        | Retorna o ano do filme.<br>Ex:   `2000-01-01T00:00:00.000Z `                           |
-| _alugado_    | Retorna se o filme já foi alugado.<br>Ex:   `[]`                                       |
-| _estoque_    | Retorna quantidade de filmes em estoque.<br>Ex:   `5`                                  |
+| `id`         | Retorna o ID do filme.<br>Ex:      `1`                                                 |
+| `titulo`     | Retorna o o titulo do filme.<br>Ex:   `Godizilla`                                      |
+| `diretor`    | Retorna o diretor do filme.<br>Ex:   `tkao okawara `                                   |
+| `ano`        | Retorna o ano do filme.<br>Ex:   `2000-01-01T00:00:00.000Z `                           |
+| `alugado`    | Retorna se o filme já foi alugado.<br>Ex:   `[]`                                       |
+| `estoque`    | Retorna quantidade de filmes em estoque.<br>Ex:   `5`                                  |
 
 
 
@@ -115,10 +115,10 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | -----------
 -------------------------------------------------------------------------   |
-| _id_         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
-| _name_       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
-| _email_      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
-| _createdAt_  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
+| `id`         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
+| `name`       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
+| `email`      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
+| `createdAt`  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
 
 >
 
@@ -134,7 +134,7 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Body
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _User_       | Parâmetro obrigatório.<br>Ex:   `6236251478469646238d42c7`                             |
+| `User`       | Parâmetro obrigatório.<br>Ex:   `6236251478469646238d42c7`                             |
 
 ### Header
 | Autorization | <br>Ex: Bearer `eyJhbGcfJi-RBQbaI...`                                                  |
@@ -142,6 +142,6 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _message_    | Retorna o valor se foi alugado.<br>Ex:      `Alugado`                                  |
+| `message`    | Retorna o valor se foi alugado.<br>Ex:      `Alugado`                                  |
 >
 
