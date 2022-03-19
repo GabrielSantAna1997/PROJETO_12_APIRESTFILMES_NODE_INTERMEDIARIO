@@ -29,18 +29,18 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 ### Body
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _name_       | Parâmetro obrigatório.<br>Ex:   `Gabriel Santana`                                      |
-| _email_      | Parâmetro obrigatório.<br>Ex:   `gabrielsantana@gmail.com`                             |
-| _password_   | Parâmetro obrigatório.<br>Ex:   `123456789`                                            |
+| `name`       | Parâmetro obrigatório.<br>Ex:   `Gabriel Santana`                                      |
+| `email`      | Parâmetro obrigatório.<br>Ex:   `gabrielsantana@gmail.com`                             |
+| `password`   | Parâmetro obrigatório.<br>Ex:   `123456789`                                            |
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
 | ------------ | ------------------------------------------------------------------------------------   |
-| _name_       | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
-| _email_      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
-| _id_         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
-| _createdAt_  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
-| _token_      | Retorna um token para autenticação.<br>Ex: `sInR5cCI6IkpXVCJ...`                       |
+| `name`        | Retorna o nome o usuario.<br>Ex:          `Gabriel Santana`                            |
+| `email`      | Retorna o email do usuario.<br>Ex:        `gabrielsantana@gmail.com`                   |
+| `id`         | Retorna o id do usuario.<br>Ex:           `6236135b50d32a3b183b0732`                   |
+| `createdAt`  | Retorna o a data quando foi criado.<br>Ex: `2022-03-19T17:31:07.755Z`                  |
+| `token`      | Retorna um token para autenticação.<br>Ex: `sInR5cCI6IkpXVCJ...`                       |
 
 
 
