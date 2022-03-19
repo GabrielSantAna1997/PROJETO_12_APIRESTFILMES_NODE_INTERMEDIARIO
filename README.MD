@@ -136,7 +136,7 @@ Disponibilize um serviço extra de usuários, no qual permita incluir um novo cl
 | `User`       | Parâmetro obrigatório.<br>Ex:   `6236251478469646238d42c7`                             |
 
 ### Header
-| Autorization | <br>Ex: Bearer `eyJhbGcfJi-RBQbaI...`                                                  |
+| `Autorization` | <br>Ex: Bearer `eyJhbGcfJi-RBQbaI...`                                                  |
 
 ### Retornos
 | Nome         | Exemplo de valor retornado                                                             |
